@@ -1,4 +1,4 @@
-setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final")
+#setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final")
 
 lowMiddle = c("Angola", "Bangladesh", "Bhutan", "Bolivia", "Cape Verde", "Cambodia", "Cameroon", "Congo", "Cote d'Ivoire", "Djibouti", "Egypt", "El Salvador", "Swaziland", "Ghana", "Honduras", "India", "Indonesia", "Kenya", "Kyrgyzstan", "Laos", "Mauritania", "Moldova", "Mongolia", "Morocco", "Myanmar", "Nicaragua", "Nigeria", "Pakistan", "Papua New Guinea", "Philippines", "Sao Tome and Principe", "Senegal", "Sudan", "Timor", "Tunisia", "Ukraine", "Uzbekistan", "Vietnam", "Zambia", "Zimbabwe")
 south_asia = c("Bangladesh", "Bhutan", "India", "Maldives", "Nepal", "Pakistan","Sri Lanka" )

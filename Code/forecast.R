@@ -1,4 +1,4 @@
-setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final\\LowMiddle\\")
+#setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final\\LowMiddle\\")
 
 library(dplyr)
 library(forecast)
@@ -47,7 +47,7 @@ for (i in lowMiddle) {
 
 ######################################################################
 
-setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final\\SouthAsia\\")
+#setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final\\SouthAsia\\")
 
 south_asia = c("Bangladesh", "Bhutan", "India", "Maldives", "Nepal", "Pakistan",
                "Sri Lanka" )
