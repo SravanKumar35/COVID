@@ -3,7 +3,14 @@ setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final\\LowMiddle\\"
 library(dplyr)
 library(forecast)
 
-lowMiddle = c("Angola", "Bangladesh", "Bhutan", "Bolivia", "Cape Verde", "Cambodia", "Cameroon", "Congo", "Cote d'Ivoire", "Djibouti", "Egypt", "El Salvador", "Swaziland", "Ghana", "Honduras", "India", "Indonesia", "Kenya", "Kyrgyzstan", "Laos", "Mauritania", "Moldova", "Mongolia", "Morocco", "Myanmar", "Nicaragua", "Nigeria", "Pakistan", "Papua New Guinea", "Philippines", "Sao Tome and Principe", "Senegal", "Sudan", "Timor", "Tunisia", "Ukraine", "Uzbekistan", "Vietnam", "Zambia", "Zimbabwe")
+lowMiddle = c("Angola", "Bangladesh", "Bhutan", "Bolivia", "Cape Verde", 
+              "Cambodia", "Cameroon", "Congo", "Cote d'Ivoire", "Djibouti", 
+              "Egypt", "El Salvador", "Swaziland", "Ghana", "Honduras", "India", 
+              "Indonesia", "Kenya", "Kyrgyzstan", "Laos", "Mauritania", "Moldova",
+              "Mongolia", "Morocco", "Myanmar", "Nicaragua", "Nigeria", "Pakistan",
+              "Papua New Guinea", "Philippines", "Sao Tome and Principe", "Senegal",
+              "Sudan", "Timor", "Tunisia", "Ukraine", "Uzbekistan", "Vietnam", 
+              "Zambia", "Zimbabwe")
 ext_csv = ".csv"
 par(mfrow=c(1,2),oma = c(0, 0, 2, 0))
 
@@ -42,7 +49,8 @@ for (i in lowMiddle) {
 
 setwd("G:\\Required\\College\\8th sem\\Major Project\\COVID\\Final\\SouthAsia\\")
 
-south_asia = c("Bangladesh", "Bhutan", "India", "Maldives", "Nepal", "Pakistan","Sri Lanka" )
+south_asia = c("Bangladesh", "Bhutan", "India", "Maldives", "Nepal", "Pakistan",
+               "Sri Lanka" )
 ext_csv = ".csv"
 par(mfrow=c(1,2),oma = c(0, 0, 2, 0))
 
